@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    position: relative;
+    left: 36px;
+    width: 140px;
+    margin-top: 5px;
+}
+div#logo{
+    letter-spacing: 5px;
+}
+
+#logo path:nth-child(1){
+    stroke-dasharray: 150px;
+    stroke-dashoffset: 40px;
+
+}
+#logo path:nth-child(2){
+    
+}
+#logo path:nth-child(3){
+    
+}
+#logo path:nth-child(4){
+    
+}
+#logo path:nth-child(5){
+    
+}

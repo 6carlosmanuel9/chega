@@ -64,7 +64,7 @@ img{
 h2{
     padding-top: 10px;
     color: black;
-    font-size: 2rem;
+    font-size: 0.8rem;
     font-family: sans-serif;
     transform: scale(0);
     animation: juventude 2s ease-in-out forwards 3s;

@@ -15,6 +15,7 @@ img{
     width: 0px;
     margin-top: 5px;
     animation: barra 0.7s forwards 1.7s;
+    z-index: -1;
 }
 #logo{
     animation: fill 1s ease forwards 1.9s;
@@ -70,6 +71,15 @@ h2{
     animation: juventude 2s ease-in-out forwards 2.7s;
     transition: transform 0.5ms;
 }
+h2::after{
+    content: "JCH distrito Setubal";
+    position: absolute;
+    color: #202056;
+    top: 93px;
+    right: 1px;
+    font-size: 10px;
+    
+}
 @keyframes juventude{
         
     0%, 45%{
@@ -83,6 +93,6 @@ h2{
     55%, 100%{
      transform: scale(1);
      color: #202056;
-     text-shadow: 5px 5px 5px black;
+     
     }
  }

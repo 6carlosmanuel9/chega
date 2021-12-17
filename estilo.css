@@ -61,3 +61,28 @@ img{
         fill:#202056;
     }
 }
+h2{
+    text-align: center;
+    padding-top: 10px;
+    color:white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    transform: scale(0);
+    animation: juventude 2s ease-in-out forwards;
+    transition: transform 0.5ms;
+}
+@keyframes juventude{
+        
+    0%, 45%{
+     transform: scale(0);
+     color: white;
+    }
+    50%{
+     transform: scale(1.2);
+     color: red;
+    }
+    55%, 100%{
+     transform: scale(1);
+     color: white;
+    }
+ }

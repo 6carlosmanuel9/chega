@@ -67,7 +67,7 @@ h2{
     font-size: 0,8rem;
     font-family: sans-serif;
     transform: scale(0);
-    animation: juventude 2s ease-in-out forwards 3s;
+    animation: juventude 2s ease-in-out forwards 2.7s;
     transition: transform 0.5ms;
 }
 @keyframes juventude{
@@ -83,6 +83,6 @@ h2{
     55%, 100%{
      transform: scale(1);
      color: #202056;
-     opacity: 1;
+     text-shadow: 5px 5px 5px black;
     }
  }

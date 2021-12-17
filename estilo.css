@@ -74,7 +74,7 @@ h2{
         
     0%, 45%{
      transform: scale(0);
-     color: black;
+     color: #202056;
     }
     50%{
      transform: scale(1.2);
@@ -82,7 +82,7 @@ h2{
     }
     55%, 100%{
      transform: scale(1);
-     color: black;
+     color: #202056;
      opacity: 1;
     }
  }

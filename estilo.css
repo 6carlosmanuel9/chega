@@ -62,10 +62,9 @@ img{
     }
 }
 h2{
-    text-align: center;
     padding-top: 10px;
-    color:white;
-    font-size: 3rem;
+    color: black;
+    font-size: 2rem;
     font-family: sans-serif;
     transform: scale(0);
     animation: juventude 2s ease-in-out forwards 3s;
@@ -75,7 +74,7 @@ h2{
         
     0%, 45%{
      transform: scale(0);
-     color: white;
+     color: black;
     }
     50%{
      transform: scale(1.2);
@@ -83,6 +82,7 @@ h2{
     }
     55%, 100%{
      transform: scale(1);
-     color: white;
+     color: black;
+     opacity: 1;
     }
  }

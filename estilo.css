@@ -74,8 +74,8 @@ h2{
 h2:hover::before{
     content: url("JCH.png");
     position: absolute;
-    top: -30px;
-    left: 50%;
+    top: -150px;
+    left: 20%;
     width: 100px;
     cursor: pointer;
 }
@@ -83,7 +83,7 @@ h2::after{
     content: "JCH distrito Setubal";
     position: absolute;
     color: #202056;
-    top: 93px;
+    top: 97px;
     right: 1px;
     font-size: 10px;
     
